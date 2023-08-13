@@ -19,3 +19,15 @@ public class Substring_Palindrome {
         return true;
     }
 }
+
+//Output :
+
+// a
+// b
+// bccb
+// c
+// cc
+// c
+// cbc
+// b
+// c
