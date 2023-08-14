@@ -1,3 +1,6 @@
+// 1. You are given a string. 
+// 2. You have to print all palindromic substrings of the given string
+
 public class Substring_Palindrome {
     public static void main(String[] args){
         String s = "abccbc";
