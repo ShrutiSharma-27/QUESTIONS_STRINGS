@@ -9,7 +9,7 @@ public class All_Permutations_of_String_Iteratively {
             StringBuilder sb = new StringBuilder(s);
             int remain_index; //the index that'll come out to get printed
             int quotient=i; //that get divided at first by the divisor below at every iteration. But later on it get replaced by new quotient.
-            for(int divisor=str_len ; divisor>=1 ; divisor--){
+            for(int divisor=str_len ; divisor>=1 ; divisor--){ //divisor range is so because at first step when divisor is 3, we have choice between 0,1,2 (only possible remainders also) indices to print. Likewise, at 2nd step 0,1 indices can be printed.
                 remain_index=quotient%divisor;
                 quotient/=divisor;
                 System.out.print(sb.charAt(remain_index));
