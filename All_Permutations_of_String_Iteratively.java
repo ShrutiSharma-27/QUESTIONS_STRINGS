@@ -7,8 +7,8 @@ public class All_Permutations_of_String_Iteratively {
         int str_len = s.length();
         for(int i=0 ; i<findFactorial(str_len) ; i++){
             StringBuilder sb = new StringBuilder(s);
-            int remain_index;
-            int quotient=i;
+            int remain_index; //the index that'll come out to get printed
+            int quotient=i; //that get divided at first by the divisor below at every iteration. But later on it get replaced by new quotient.
             for(int divisor=str_len ; divisor>=1 ; divisor--){
                 remain_index=quotient%divisor;
                 quotient/=divisor;
@@ -30,9 +30,9 @@ public class All_Permutations_of_String_Iteratively {
 
 //Output :
 
-abc
-bac
-cab
-acb
-bca
-cba
+// abc
+// bac
+// cab
+// acb
+// bca
+// cba
