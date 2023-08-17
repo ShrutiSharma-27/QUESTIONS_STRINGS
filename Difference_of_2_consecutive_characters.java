@@ -25,3 +25,7 @@ public class Difference_of_2_consecutive_characters {
         return result.toString();
     }
 }
+
+//Output : 
+
+// a1b2d0d7k-10a14o
