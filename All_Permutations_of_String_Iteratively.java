@@ -36,3 +36,30 @@ public class All_Permutations_of_String_Iteratively {
 // acb
 // bca
 // cba
+
+//Output in case of String "abcd" :
+
+// abcd
+// bacd
+// cabd
+// dabc
+// acbd
+// bcad
+// cbad
+// dbac
+// adbc
+// bdac
+// cdab
+// dcab
+// abdc
+// badc
+// cadb
+// dacb
+// acdb
+// bcda
+// cbda
+// dbca
+// adcb
+// bdca
+// cdba
+// dcba
